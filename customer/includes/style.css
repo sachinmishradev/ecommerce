@@ -1,0 +1,68 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family:arial;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+	
+.navbar {margin-bottom: 0;background-color:#ecf0f1;z-index: 9999;border: 0;font-size: 12px !important;line-height: 1.42857143 !important; 
+	letter-spacing: 4px;   border-radius: 0;}
+#searchbutton{background-color:#000;color:orange;font-weight:bolder;}
+#searchbutton:hover{padding-left:15px;}
+#navbartopmenu{padding-top:1%;padding-bottom:1%;border-radius:0px;margin-bottom:0px;background-color:#fff;}
+#navbartopmenu  ul li a:hover{font-family:arial; line-height: 20px;}
+#navbartopmenu  ul li a:hover{margin-bottom:0;color:#683;z-index: 9999;border: 0;;line-height: 1.42857143 !important; 
+	letter-spacing: 4px; color:red;  border-radius: 0;}
+#navbartopmenu li a{color:#000;}
+#jumbcrousaltopmarid{margin-top:60px;}
+.slogo{font-size:50px;}
+#cartclicks1{color:#000; font-family: Verdana,"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;}
+#cartclicks2{color:#34495e; font-family: Verdana,"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;}
+#cartclicks3{color:#34495e;font-size:15px; font-family: Verdana,"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;}
+#detailimage{height:400px;width:40%;}
+#detailimage1{display:none;;height:400px;width:50%;}
+.card_block{margin-left:50%;}
+#fixedcart{
+	position:fixed;z-index:1000;background-color:rgba(135, 211, 124,.9);padding:10px;width:auto;
+}
+
+@media screen and (max-width: 524px) {
+#detailimage{height:10%;width:100%;}
+#detailimage1{height:400px;width:100%;}
+#single_product{margin-left:24%;}
+
+#fixedcart{position:relative;z-index:1000;background-color:rgba(135, 211, 124,.9);padding:10px;width:auto;}
+}
+
+@media screen and (max-width:800px) {
+	   
+#fixedcart{position:relative;z-index:1000;background-color:rgba(135, 211, 124,.9);padding:10px;max-width:400px;border-radius:0px 4px 4px 0px ;}
+}
+@media screen and (max-width:350px) {
+	   #single_product{margin-left:10%;}
+	   #r{width:200px;}
+
+}
